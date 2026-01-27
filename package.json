@@ -1,0 +1,28 @@
+{
+  "name": "dbconnectapp",
+  "version": "1.0.0",
+  "description": "connexion mongodb avec express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sedera53/DBconnectapp.git"
+  },
+  "author": "\"code with maitre sedera\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sedera53/DBconnectapp/issues"
+  },
+  "homepage": "https://github.com/Sedera53/DBconnectapp#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
